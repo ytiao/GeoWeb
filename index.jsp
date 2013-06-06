@@ -14,8 +14,8 @@
 <body>
 <h1>GEOWEB Planning</h1>
 <%
-String isv ="367f7deaa1ce47b185a0c91cb6d8f714";
-String isvkey="n+ABj+1w6e1Ht2A2ziBh0Q==";
+String isv ="";
+String isvkey="";
 //取得路徑規劃instance
 com.cht.emap.webservice.sdk.RoutingService Rservice = new com.cht.emap.webservice.sdk.RoutingService(isv, isvkey, "http", "api.hicloud.hinet.net", 80);
 // 進行路徑規劃
